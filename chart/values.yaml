@@ -1,0 +1,99 @@
+# -- AtomiCloud Service Tree. See [ServiceTree](https://atomicloud.larksuite.com/wiki/OkfJwTXGFiMJkrk6W3RuwRrZs64?theme=DARK&contentTheme=DARK#MHw5d76uDo2tBLx86cduFQMRsBb)
+serviceTree:
+  platform: &platform sulfoxide
+  service: &service chlorine
+  layer: &layer "1"
+
+# -- Kubernetes labels and annotations, following Service Tree
+tags: &tags
+  atomi.cloud/platform: *platform
+  atomi.cloud/service: *service
+  atomi.cloud/layer: *layer
+
+# -- YAML Anchor for PodSecurityContext
+podSecurityContext: &podSecurityContext
+  runAsUser: 1000
+  runAsGroup: 1000
+  fsGroup: 1000
+  runAsNonRoot: true
+
+# -- YAML Anchor for SecurityContext
+securityContext: &securityContext
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  runAsUser: 1000
+  runAsGroup: 1000
+  capabilities:
+    drop:
+      - ALL
+
+# -- The Root Doppler Token for deploying SecretStore
+rootToken:
+  # -- The Kubernetes Secret Key holding the Root Doppler Token
+  key: "DOPPLER_TOKEN"
+  # -- The Root Doppler Token Value for deploying SecretStore. This value is sensitive
+  value: ""
+
+# -- The name of the doppler ClusterSecretStore that is going to be deployed
+storeName: doppler
+
+# -- External Secrets Configuration. See [External Secrets Operator Documentation](https://github.com/external-secrets/external-secrets/tree/main/deploy/charts/external-secrets)
+external-secrets:
+
+  installCRDs: true
+
+  serviceMonitor:
+    enabled: true
+
+  resources:
+    requests:
+      cpu: 50m
+      memory: 128Mi
+    limits:
+      cpu: 200m
+      memory: 256Mi
+
+  podSecurityContext: *podSecurityContext
+  securityContext: *securityContext
+  podAnnotations:
+    <<: *tags
+    atomi.cloud/module: operator
+  podLabels:
+    <<: *tags
+    atomi.cloud/module: operator
+
+  webhook:
+    resources:
+      requests:
+        cpu: 50m
+        memory: 128Mi
+      limits:
+        cpu: 200m
+        memory: 256Mi
+    podSecurityContext: *podSecurityContext
+    securityContext: *securityContext
+    podLabels:
+      <<: *tags
+      atomi.cloud/module: webhook
+    podAnnotations:
+      <<: *tags
+      atomi.cloud/module: webhook
+
+  certController:
+    resources:
+      requests:
+        cpu: 50m
+        memory: 128Mi
+      limits:
+        cpu: 200m
+        memory: 256Mi
+    podSecurityContext: *podSecurityContext
+    securityContext: *securityContext
+    podLabels:
+      <<: *tags
+      atomi.cloud/module: cert-controller
+    podAnnotations:
+      <<: *tags
+      atomi.cloud/module: cert-controller
+
