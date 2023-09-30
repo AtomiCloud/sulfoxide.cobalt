@@ -2,7 +2,7 @@ apiVersion: v2
 name: sulfoxide-cobalt
 description: Helm Chart to install External Secrets, our secret operator, and SecretStore to AtomiCloud's Kubernetes Cluster
 type: application
-version: 1.0.0
+version: 1.0.1
 appVersion: "v0.9.5"
 dependencies:
   - name: external-secrets

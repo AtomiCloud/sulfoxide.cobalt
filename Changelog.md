@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.0.0...v1.0.1) (2023-09-30)
+
+
+### 🐛 Bug Fixes
+
+* change cluster render to cluster template ([c80d1b3](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/c80d1b3aa7d1eefae0c7bd2c1757978e5d7de2fa))
+
 ## 1.0.0 (2023-09-30)
 
 
