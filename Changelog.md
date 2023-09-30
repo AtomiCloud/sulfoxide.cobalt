@@ -1,3 +1,10 @@
+## 1.0.0 (2023-09-30)
+
+
+### 🚀 New Features
+
+* initial commit ([1ce7203](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/1ce720327fc3d1bd10bd21b6f8d5042dc202dd96))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.chlorine/compare/v1.0.1...v1.1.0) (2023-09-30)
 
 
