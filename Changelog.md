@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.0.1...v1.1.0) (2023-10-03)
+
+
+### 🚀 New Features
+
+* **entei:** initial values.yaml ([2191fe1](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/2191fe1dd2e3d0b1bd00d88389a7f84754ebcd6d))
+
 ## [1.0.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.0.0...v1.0.1) (2023-09-30)
 
 
