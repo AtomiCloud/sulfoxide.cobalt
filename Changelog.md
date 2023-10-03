@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.1.0...v1.1.1) (2023-10-03)
+
+
+### 🐛 Bug Fixes
+
+* **entei:** remove incorrect values.yaml ([a842bac](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/a842bac121247c89148da530c64cdb30bf783e09))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.0.1...v1.1.0) (2023-10-03)
 
 
