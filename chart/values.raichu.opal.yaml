@@ -1,0 +1,29 @@
+serviceTree:
+  landscape: &landscape raichu
+  cluster: &cluster opal
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+rootToken:
+  value: "supersecret"
+
+external-secrets:
+  podAnnotations:
+    <<: *tags
+  podLabels:
+    <<: *tags
+
+  webhook:
+    podLabels:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+
+  certController:
+    podLabels:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+
