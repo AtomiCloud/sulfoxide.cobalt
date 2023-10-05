@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.1.1...v1.2.0) (2023-10-05)
+
+
+### 🚀 New Features
+
+* pichu, pikachu and raichu values ([1db1ae9](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/1db1ae9079ede10f7e711d09531df65443f9eb91))
+
 ## [1.1.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.1.0...v1.1.1) (2023-10-03)
 
 
