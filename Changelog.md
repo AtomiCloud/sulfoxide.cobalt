@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.2.0...v1.2.1) (2023-10-15)
+
+
+### 🐛 Bug Fixes
+
+* use existing secret ([0043143](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/004314363c354b8d4ad203d7695a2b5f62ecec72))
+
 ## [1.2.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.1.1...v1.2.0) (2023-10-05)
 
 
