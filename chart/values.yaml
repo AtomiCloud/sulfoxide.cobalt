@@ -30,10 +30,15 @@ securityContext: &securityContext
 
 # -- The Root Doppler Token for deploying SecretStore
 rootToken:
+  # -- To create the secret or use existing secret
+  create: false
+  # -- Name of secret to be created
+  name: root-token
   # -- The Kubernetes Secret Key holding the Root Doppler Token
   key: "DOPPLER_TOKEN"
   # -- The Root Doppler Token Value for deploying SecretStore. This value is sensitive
   value: ""
+
 
 # -- The name of the doppler ClusterSecretStore that is going to be deployed
 storeName: doppler
