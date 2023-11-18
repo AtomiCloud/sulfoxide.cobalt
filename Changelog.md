@@ -1,3 +1,15 @@
+## [1.3.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.2.1...v1.3.0) (2023-11-18)
+
+
+### 📦 Upstreams Changes
+
+* external-secrets to 0.9.9 ([673d950](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/673d950b5dae7ce58d81c9174eab8d4ef75e10fb))
+
+
+### 🚀 New Features
+
+* ruby values ([78f2218](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/78f22183a6a7b1f90029229fabc0735a4e8bbf3c))
+
 ## [1.2.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.2.0...v1.2.1) (2023-10-15)
 
 
