@@ -1,6 +1,6 @@
 # sulfoxide-cobalt
 
-![Version: 1.2.1](https://img.shields.io/badge/Version-1.2.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.9.5](https://img.shields.io/badge/AppVersion-v0.9.5-informational?style=flat-square)
+![Version: 1.2.1](https://img.shields.io/badge/Version-1.2.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.9.9](https://img.shields.io/badge/AppVersion-v0.9.9-informational?style=flat-square)
 
 Helm Chart to install External Secrets, our secret operator, and SecretStore to AtomiCloud's Kubernetes Cluster
 
@@ -8,7 +8,7 @@ Helm Chart to install External Secrets, our secret operator, and SecretStore to 
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://charts.external-secrets.io | external-secrets | v0.9.5 |
+| https://charts.external-secrets.io | external-secrets | v0.9.9 |
 
 ## Values
 
