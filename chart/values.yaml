@@ -67,8 +67,24 @@ external-secrets:
   podLabels:
     <<: *tags
     atomi.cloud/module: operator
+  topologySpreadConstraints:
+    - maxSkew: 1
+      topologyKey: "topology.kubernetes.io/zone"
+      whenUnsatisfiable: ScheduleAnyway
+      labelSelector:
+        matchLabels:
+          <<: *tags
+          atomi.cloud/module: operator
 
   webhook:
+    topologySpreadConstraints:
+      - maxSkew: 1
+        topologyKey: "topology.kubernetes.io/zone"
+        whenUnsatisfiable: ScheduleAnyway
+        labelSelector:
+        matchLabels:
+            <<: *tags
+            atomi.cloud/module: webhook
     resources:
       requests:
         cpu: 50m
@@ -86,6 +102,14 @@ external-secrets:
       atomi.cloud/module: webhook
 
   certController:
+    topologySpreadConstraints:
+      - maxSkew: 1
+        topologyKey: "topology.kubernetes.io/zone"
+        whenUnsatisfiable: ScheduleAnyway
+        labelSelector:
+        matchLabels:
+            <<: *tags
+            atomi.cloud/module: cert-controller
     resources:
       requests:
         cpu: 50m
