@@ -1,3 +1,15 @@
+## [1.4.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.3.0...v1.4.0) (2024-02-08)
+
+
+### 🚀 New Features
+
+* onyx cluster ([a3569ff](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/a3569ffdf15f7814c87b8f91a8a9ecfb74fcc060))
+
+
+### 🐛 Bug Fixes
+
+* releaser ([3694983](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/3694983c2f2939c4306f9a4d70bbd4277f3eec5e))
+
 ## [1.3.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.2.1...v1.3.0) (2023-11-18)
 
 
