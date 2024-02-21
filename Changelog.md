@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.4.0...v1.5.0) (2024-02-21)
+
+
+### 🚀 New Features
+
+* preparing to include cobalt into carbon ([fcfd12d](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/fcfd12db252a8dc463472da7ecf40aa6089ed73a))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.3.0...v1.4.0) (2024-02-08)
 
 
