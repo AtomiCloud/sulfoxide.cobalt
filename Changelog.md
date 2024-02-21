@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.5.0...v1.5.1) (2024-02-21)
+
+
+### 🐛 Bug Fixes
+
+* topology spread constraints ([8853641](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/8853641eaf5451a15b9149820e307cb9cc473236))
+
 ## [1.5.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.4.0...v1.5.0) (2024-02-21)
 
 
