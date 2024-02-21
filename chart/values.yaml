@@ -82,9 +82,9 @@ external-secrets:
         topologyKey: "topology.kubernetes.io/zone"
         whenUnsatisfiable: ScheduleAnyway
         labelSelector:
-        matchLabels:
-            <<: *tags
-            atomi.cloud/module: webhook
+          matchLabels:
+              <<: *tags
+              atomi.cloud/module: webhook
     resources:
       requests:
         cpu: 50m
@@ -107,9 +107,9 @@ external-secrets:
         topologyKey: "topology.kubernetes.io/zone"
         whenUnsatisfiable: ScheduleAnyway
         labelSelector:
-        matchLabels:
-            <<: *tags
-            atomi.cloud/module: cert-controller
+          matchLabels:
+              <<: *tags
+              atomi.cloud/module: cert-controller
     resources:
       requests:
         cpu: 50m
