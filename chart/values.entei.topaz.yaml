@@ -25,6 +25,8 @@ external-secrets:
     podAnnotations:
       <<: *tags
 
+storeName: infisical
+
 rootToken:
   name: cobalt-infisical
   clientIdKey: CLIENT_ID
