@@ -24,6 +24,8 @@ external-secrets:
     podAnnotations:
       <<: *tags
 
+storeName: infisical
+
 rootToken:
   name: root-token
   clientIdKey: CLIENT_ID
