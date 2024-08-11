@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.6.0...v1.7.0) (2024-08-11)
+
+
+### 🚀 New Features
+
+* simplify root secret token ([e73fa2d](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/e73fa2d3cbcdaef34e9f3cf3ea2ee4c24246a05b))
+
 ## [1.6.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.5.1...v1.6.0) (2024-08-11)
 
 
