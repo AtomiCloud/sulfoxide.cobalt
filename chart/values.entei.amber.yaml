@@ -26,7 +26,7 @@ external-secrets:
       <<: *tags
 
 rootToken:
-  name: cobalt-secret-operator-infisical
+  name: cobalt-infisical
   clientIdKey: CLIENT_ID
   clientSecretKey: CLIENT_SECRET
   type: infisical
