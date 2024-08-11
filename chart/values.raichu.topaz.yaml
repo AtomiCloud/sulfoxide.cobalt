@@ -1,0 +1,34 @@
+serviceTree:
+  landscape: &landscape raichu
+  cluster: &cluster topaz
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+external-secrets:
+  podAnnotations:
+    <<: *tags
+  podLabels:
+    <<: *tags
+
+  webhook:
+    podLabels:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+
+  certController:
+    podLabels:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+
+rootToken:
+  name: root-token
+  clientIdKey: CLIENT_ID
+  clientSecretKey: CLIENT_SECRET
+  type: infisical
+  project: sulfoxide-sos
+  secretsPath: /
+  hostAPI: https://secrets.atomi.cloud
