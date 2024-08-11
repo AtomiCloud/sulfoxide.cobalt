@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.7.1...v1.8.0) (2024-08-11)
+
+
+### 🚀 New Features
+
+* new values file for pichu, pikachu & raichu under topaz & amber ([4a0d6c2](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/4a0d6c223c0e12583b59979c95a6303773230a76))
+
 ## [1.7.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.7.0...v1.7.1) (2024-08-11)
 
 
