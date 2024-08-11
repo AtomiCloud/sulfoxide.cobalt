@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.7.0...v1.7.1) (2024-08-11)
+
+
+### 🐛 Bug Fixes
+
+* confusing store name ([1940a42](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/1940a4206e5fa49455ec73fa795199c3e6b9bd7b))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.6.0...v1.7.0) (2024-08-11)
 
 
