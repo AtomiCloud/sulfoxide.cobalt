@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.8.1...v1.9.0) (2024-08-11)
+
+
+### 📦 Upstreams Changes
+
+* downgrade to 9.20 to see if it works ([1139b29](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/1139b295c37f70f5e4d594dadced11a29e89b866))
+
 ## [1.8.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.8.0...v1.8.1) (2024-08-11)
 
 
