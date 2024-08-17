@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.9.0...v1.10.0) (2024-08-17)
+
+
+### 🚀 New Features
+
+* configure opal-ruby for infisical ([5de721e](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/5de721ee0628259ea14ac61d477b952d0d808674))
+
 ## [1.9.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.8.1...v1.9.0) (2024-08-11)
 
 
