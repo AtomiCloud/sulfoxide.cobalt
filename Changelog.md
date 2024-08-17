@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.10.0...v1.10.1) (2024-08-17)
+
+
+### 🐛 Bug Fixes
+
+* incorrect root-token reference for vclusters ([c5ed53c](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/c5ed53c48b2ab7d75daeeab43b694e798b6b1bdd))
+
 ## [1.10.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.9.0...v1.10.0) (2024-08-17)
 
 
