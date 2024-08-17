@@ -1,5 +1,5 @@
 serviceTree:
-  landscape: &landscape pichu
+  landscape: &landscape entei
   cluster: &cluster opal
 
 tags: &tags
@@ -24,7 +24,3 @@ external-secrets:
       <<: *tags
     podAnnotations:
       <<: *tags
-
-rootToken:
-  name: cobalt-secret-operator-doppler
-  key: DOPPLER_TOKEN

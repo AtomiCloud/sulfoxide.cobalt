@@ -33,19 +33,25 @@ rootToken:
   # -- To create the secret or use existing secret
   create: false
   # -- Type of ClusterSecretStore to be created
-  type: doppler
+  type: infisical
   # -- Name of secret to be created
-  name: root-token
-  # -- The Kubernetes Secret Key holding the Root Doppler Token
-  key: "DOPPLER_TOKEN"
+  name: cobalt-infisical
+  # -- The Kubernetes Secret Key holding the Root Infisical Client ID
+  clientIdKey: "CLIENT_ID"
+  # -- The Kubernetes Secret Key holding the Root Infisical Client Secret
+  clientSecretKey: "CLIENT_SECRET"
   # -- The Root Doppler Token Value for deploying SecretStore. This value is sensitive
   value: ""
   # -- Project
-  project: ""
+  project: "sulfoxide-sos"
+  # -- The path to the secrets in infisical project
+  secretsPath: /
+  # -- The host API of infisical
+  hostAPI: https://secrets.atomi.cloud
 
 
 # -- The name of the doppler ClusterSecretStore that is going to be deployed
-storeName: doppler
+storeName: infisical
 
 # -- External Secrets Configuration. See [External Secrets Operator Documentation](https://github.com/external-secrets/external-secrets/tree/main/deploy/charts/external-secrets)
 external-secrets:

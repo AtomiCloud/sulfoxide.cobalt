@@ -23,14 +23,3 @@ external-secrets:
       <<: *tags
     podAnnotations:
       <<: *tags
-
-storeName: infisical
-
-rootToken:
-  name: root-token
-  clientIdKey: CLIENT_ID
-  clientSecretKey: CLIENT_SECRET
-  type: infisical
-  project: sulfoxide-sos
-  secretsPath: /
-  hostAPI: https://secrets.atomi.cloud
