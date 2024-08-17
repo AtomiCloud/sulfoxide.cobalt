@@ -24,3 +24,5 @@ external-secrets:
     podAnnotations:
       <<: *tags
 
+rootToken:
+  name: root-token
