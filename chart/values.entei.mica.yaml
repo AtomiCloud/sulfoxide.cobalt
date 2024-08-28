@@ -1,0 +1,26 @@
+serviceTree:
+  landscape: &landscape entei
+  cluster: &cluster mica
+
+tags: &tags
+  atomi.cloud/landscape: *landscape
+  atomi.cloud/cluster: *cluster
+
+external-secrets:
+  fullnameOverride: cobalt
+  podAnnotations:
+    <<: *tags
+  podLabels:
+    <<: *tags
+
+  webhook:
+    podLabels:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
+
+  certController:
+    podLabels:
+      <<: *tags
+    podAnnotations:
+      <<: *tags
