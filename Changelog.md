@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.10.1...v1.11.0) (2024-08-28)
+
+
+### 🚀 New Features
+
+* values for mica & talc ([bd4f142](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/bd4f142402389752a5c8d422157ce1b753701ddf))
+
 ## [1.10.1](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.10.0...v1.10.1) (2024-08-17)
 
 
