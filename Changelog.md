@@ -1,3 +1,10 @@
+## [1.13.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.12.0...v1.13.0) (2024-12-29)
+
+
+### 📦 Upstreams Changes
+
+* **eso:** ugrade ESO from 0.9.20 to 0.12.1 ([1582489](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/158248931650e67998695b5159ee3a64fec4fb54))
+
 ## [1.12.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.11.0...v1.12.0) (2024-10-02)
 
 
