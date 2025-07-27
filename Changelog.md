@@ -1,3 +1,10 @@
+## [1.14.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.13.0...v1.14.0) (2025-07-27)
+
+
+### 📦 Upstreams Changes
+
+* **external-secrets:** update to 0.18.2 ([a94503b](https://github.com/AtomiCloud/sulfoxide.cobalt/commit/a94503ba5e8ec9560323edc7a6277d5e847678af))
+
 ## [1.13.0](https://github.com/AtomiCloud/sulfoxide.cobalt/compare/v1.12.0...v1.13.0) (2024-12-29)
 
 
